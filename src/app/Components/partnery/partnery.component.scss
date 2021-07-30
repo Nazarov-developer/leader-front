@@ -1,0 +1,43 @@
+.content__about{
+
+
+  .content__about__content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h1 {
+      color: #3390ce;
+      text-align: left;
+      font-weight: 700;
+      margin-top: 20px;
+
+      &:after {
+        content: '';
+        display: block;
+        width: 35px;
+        height: 6px;
+        background: #d13821;
+        border-radius: 3px;
+        margin-top: 15px;
+
+
+      }
+
+    }
+  }
+
+
+}
+.content__logo__part{
+
+
+  .content__logo__part__content{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    img{
+      margin: 10px;
+    }
+  }
+}

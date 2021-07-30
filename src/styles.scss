@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Open Sans', sans-serif; }
+
+$container-background:red;
+
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+
+.content__container {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .navbar-nav{
+    padding: 0!important;
+    margin-left: 0px!important;
+
+    li a{
+      padding: 11px 36px 11px 10px;
+      display: block;
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+    }
+  }
+  .content__container {
+    width: 100%!important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .content__subscribe__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .content__container__blocks{
+    display: flex;
+    flex-direction: column;
+    .content__container__block__content{
+      margin-left: 0!important;
+      margin-right: 0!important;
+      margin-top: 15px;
+    }
+  }
+
+  .content__about__contents{
+    display: flex;
+    flex-direction: column;
+
+    .content__about__content{
+      width: 100%!important;
+    }
+  }
+
+
+
+  .content__map__contents{
+    display: flex;
+    flex-direction: column;
+
+    .content__map__contents__first{
+      margin-left: 0px!important;
+    }
+  }
+
+  .content__news__body{
+    display: flex;
+    flex-direction: column;
+
+    .content__news__body__content{
+
+      img{
+        width: 100%!important;
+      }
+    }
+  }
+
+  .item{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .content__footer__contents{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .content__footer__contents__item{
+      margin-bottom: 15px;
+    }
+  }
+
+}

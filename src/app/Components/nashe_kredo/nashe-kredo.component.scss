@@ -1,0 +1,49 @@
+.content__about{
+
+
+  .content__about__content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h1 {
+      color: #3390ce;
+      text-align: left;
+      font-weight: 700;
+      margin-top: 20px;
+
+      &:after {
+        content: '';
+        display: block;
+        width: 35px;
+        height: 6px;
+        background: #d13821;
+        border-radius: 3px;
+        margin-top: 15px;
+
+
+      }
+
+    }
+  }
+
+
+}
+
+.content__about__text{
+
+
+  .content__about__content__text{
+
+    p{
+      font-size: 14px;
+      color: #000;
+      text-align: justify;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 30px;
+    }
+    img{
+      width: 240px;
+      float: left;
+    }
+  }
+}
